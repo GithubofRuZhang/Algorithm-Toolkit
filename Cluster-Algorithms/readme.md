@@ -5,6 +5,7 @@
 - [Importing Data and Preprocessing](#Title-One)
 - [Dimensionality Reduction](#Title-Two)
   - [Principal component analysis](#second-level-heading)
+  - [Non-negative matrix factorization](#second-level-heading)
 
 ## Importing Data and Preprocessing
 Before importing data, it is necessary to choose the data processing method. If the data processing method chosen is to handle missing values (NAN), first check the columns. If the number of missing values in a column is greater than 20% of the total number of columns, delete that column directly. Then, proceed to check the rows. If there are rows with missing data, delete those rows.
@@ -29,6 +30,9 @@ This section outlines the process of dimensionality reduction after data import,
 
 ### Principal component analysis (PCA)
 Link: https://en.wikipedia.org/wiki/Principal_component_analysis
+
+### Non-negative matrix factorization (NNMF)
+Link: https://en.wikipedia.org/wiki/Non-negative_matrix_factorization
 
 
 
