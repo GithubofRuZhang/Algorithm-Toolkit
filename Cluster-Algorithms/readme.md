@@ -7,6 +7,10 @@
   - [Non-negative matrix factorization](#second-level-heading)
   - [Singular value decomposition](#second-level-heading)
   - [Stochastic neighbor embedding](#second-level-heading)
+  - [t-distributed stochastic neighbor embedding](#second-level-heading)
+  - [Kernel principal component analysis](#second-level-heading)
+
+
 ## Importing Data and Preprocessing
 Before importing data, it is necessary to choose the data processing method. If the data processing method chosen is to handle missing values (NAN), first check the columns. If the number of missing values in a column is greater than 20% of the total number of columns, delete that column directly. Then, proceed to check the rows. If there are rows with missing data, delete those rows.
 
@@ -41,6 +45,11 @@ Link: https://en.wikipedia.org/wiki/Singular_value_decomposition
 Link: https://papers.nips.cc/paper_files/paper/2002/hash/6150ccc6069bea6b5716254057a194ef-Abstract.html
 
 ### t-distributed stochastic neighbor embedding (t-SNE)
+Link: https://en.wikipedia.org/wiki/T-distributed_stochastic_neighbor_embedding
+
+### Kernel principal component analysis  (kernel PCA)
+Link: https://en.wikipedia.org/wiki/Kernel_principal_component_analysis
+
 
 
 
