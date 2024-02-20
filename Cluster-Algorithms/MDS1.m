@@ -1,0 +1,48 @@
+function mappedX = MDS1(X, no_dims)
+
+	% Initialize some variables
+	iterations = 30;			% Number of iterations
+	lr = 0.05;					% Learning rate
+	r = 2;						% Metric
+
+	% Compute pairwise distance matrix
+	disp('Computing dissimilarity matrix...');
+	D = squareform(pdist(X, 'euclidean'));
+	n = size(D, 1);
+	
+	% Normalise distances
+	D = D / max(max(D));
+	
+	% Compute the variance of the distance matrix
+	Dbar = (sum(sum(D)) - trace(D)) / n / (n - 1);
+	temp = (D - Dbar * ones(n)) .^ 2;
+	varD = .5 * (sum(sum(temp)) - trace(temp));
+
+	% Initialize some more variables
+	mappedX = rand(n, no_dims) * .01 - .005;
+	dh = zeros(n);
+	rinv = 1 / r;
+
+	% Iterate
+	disp('Running MDS...')
+	for i=1:iterations
+		fprintf('.');
+		
+		% Randomly permute the objects to determine the order in which they are pinned for this iteration
+		pinning_order = randperm(n);
+		for j=1:n
+			m = pinning_order(j);
+      
+			% Move all of the other on each dimension according to the learning rule   
+			indx = [1:m-1 m+1:n];                                                       
+			pmat = repmat(mappedX(m,:), [n 1]) - mappedX;                                              
+			dhdum = sum(abs(pmat) .^ r, 2) .^ rinv;
+			dh(m, indx) = dhdum(indx)';
+			dh(indx, m) = dhdum(indx);
+			dhmat = lr * repmat((dhdum(indx) - D(m,indx)') .* (dhdum(indx) .^ (1 - r)), [1 no_dims]);
+			mappedX(indx,:) = mappedX(indx,:) + dhmat .* abs(pmat(indx,:)) .^ (r - 1) .* sign(pmat(indx,:));
+		end
+	end
+	
+	disp(' ');
+end
