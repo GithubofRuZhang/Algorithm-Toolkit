@@ -1,14 +1,14 @@
 # Document for the combination of clustering algorithms
 
 ## Table of Contents
-- [Importing Data and Preprocessing](#Title-One)
-- [Dimensionality Reduction](#Title-Two)
-  - [Principal component analysis](#second-level-heading)
-  - [Non-negative matrix factorization](#second-level-heading)
-  - [Singular value decomposition](#second-level-heading)
-  - [Stochastic neighbor embedding](#second-level-heading)
-  - [t-distributed stochastic neighbor embedding](#second-level-heading)
-  - [Kernel principal component analysis](#second-level-heading)
+- [Importing Data and Preprocessing](#importing-data-and-preprocessing)
+- [Dimensionality Reduction](#dimensionality-reduction)
+  - [Principal component analysis](#principal-component-analysis)
+  - [Non-negative matrix factorization](#non-negative-matrix-factorization)
+  - [Singular value decomposition](#singular-value-decomposition)
+  - [Stochastic neighbor embedding](#stochastic-neighbor-embedding)
+  - [t-distributed stochastic neighbor embedding](#t-distributed-stochastic-neighbor-embedding)
+  - [Kernel principal component analysis](#kernel-principal-component-analysis)
 
 
 ## Importing Data and Preprocessing
