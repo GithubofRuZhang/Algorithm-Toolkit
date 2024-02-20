@@ -1,4 +1,4 @@
-# Algorithm Toolkit: Comprehensive Suite for Data Processing and Machine Learning
+# Machine Learning Algorithm Toolkit: Comprehensive Suite for Data Processing and Machine Learning
 
 Welcome to the Algorithm Toolkit, your all-encompassing solution for data science and machine learning projects. Designed to streamline workflows from data preprocessing to model deployment, this toolkit offers a wide array of tools for regression, classification, time series forecasting, dimensionality reduction, clustering, and performance evaluation, ensuring you have the right algorithms at your disposal for any challenge.
 
