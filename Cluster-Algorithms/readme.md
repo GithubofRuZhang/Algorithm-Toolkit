@@ -5,7 +5,7 @@
 - [Dimensionality Reduction](#Title-Two)
   - [Principal component analysis](#second-level-heading)
   - [Non-negative matrix factorization](#second-level-heading)
-
+  - [Singular value decomposition](#second-level-heading)
 ## Importing Data and Preprocessing
 Before importing data, it is necessary to choose the data processing method. If the data processing method chosen is to handle missing values (NAN), first check the columns. If the number of missing values in a column is greater than 20% of the total number of columns, delete that column directly. Then, proceed to check the rows. If there are rows with missing data, delete those rows.
 
@@ -33,6 +33,8 @@ Link: https://en.wikipedia.org/wiki/Principal_component_analysis
 ### Non-negative matrix factorization (NNMF)
 Link: https://en.wikipedia.org/wiki/Non-negative_matrix_factorization
 
+### Singular value decomposition (SVD)
+Link: https://en.wikipedia.org/wiki/Singular_value_decomposition
 
 
 
