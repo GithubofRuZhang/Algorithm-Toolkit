@@ -9,6 +9,7 @@
   - [Stochastic neighbor embedding](#stochastic-neighbor-embedding)
   - [t-distributed stochastic neighbor embedding](#t-distributed-stochastic-neighbor-embedding)
   - [Kernel principal component analysis](#kernel-principal-component-analysis)
+  - [Sparse principal component analysis](#sparse-principal-component-analysis)
 
 
 ## Importing Data and Preprocessing
@@ -49,6 +50,8 @@ Link: https://en.wikipedia.org/wiki/T-distributed_stochastic_neighbor_embedding
 
 ### Kernel principal component analysis  (kernel PCA)
 Link: https://en.wikipedia.org/wiki/Kernel_principal_component_analysis
+
+### Sparse principal component analysis (SPCA or sparse PCA)
 
 
 
