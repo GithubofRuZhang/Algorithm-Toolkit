@@ -1,5 +1,4 @@
-# Document for the cluster algorithms
-
+# Document for the combination of clustering algorithms
 
 ## Table of Contents
 - [Importing Data and Preprocessing](#Title-One)
