@@ -52,6 +52,8 @@ Link: https://en.wikipedia.org/wiki/T-distributed_stochastic_neighbor_embedding
 Link: https://en.wikipedia.org/wiki/Kernel_principal_component_analysis
 
 ### Sparse principal component analysis (SPCA or sparse PCA)
+Link: https://en.wikipedia.org/wiki/Sparse_PCA
+
 
 
 
